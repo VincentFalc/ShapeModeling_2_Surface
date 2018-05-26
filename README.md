@@ -86,15 +86,15 @@ We have to be aware to start with a global epsilon value (determined as a fracti
 ###### Result
 <div style="text-align:center">
 <p align="center">
-  <img style="height : 300px;" src="/media/compressed/sphereTriple.gif">
+  <img style="height : 300px;" src="/results/sphereTriple.gif">
 <br/>RED = +Epsilon point; BLACK = 0 point; YELLOW = -Epsilon<br/>  
-  <img style="height : 300px;" src="/media/compressed/bunny1000Triple.gif">
-  <img style="height : 300px;" src="/media/compressed/bunny500Triple.gif">
+  <img style="height : 300px;" src="/results/bunny1000Triple.gif">
+  <img style="height : 300px;" src="/results/bunny500Triple.gif">
   <br/>Left = bunny-1000 ; Right = bunny-500<br/>  
-  <img style="height : 300px;" src="/media/compressed/catTriple.gif">
-  <img style="height : 300px;" src="/media/compressed/houndTriple.gif">
-  <img style="height : 300px;" src="/media/compressed/horseTriple.gif">
-  <img style="height : 300px;" src="/media/compressed/luigiTriple.gif">
+  <img style="height : 300px;" src="/results/catTriple.gif">
+  <img style="height : 300px;" src="/results/houndTriple.gif">
+  <img style="height : 300px;" src="/results/horseTriple.gif">
+  <img style="height : 300px;" src="/results/luigiTriple.gif">
 </p>
 </div>
 
@@ -119,7 +119,7 @@ This parameter give the radius in which neighboor can have an influence on the c
 Each cell has a size of (wendland radius)*(wendland radius)*(wendland radius). 
 <br/>
 <p align="center">
-  <img style="height : 550px;" src="/media/compressed/schema.jpg">
+  <img style="height : 550px;" src="/results/schema.jpg">
 </p>
 <br/>
 That way, we only need - and we are sure it's sufficient - to visit the 27 directs neighboors (9 on top, 9 below, 8 around) of the cell we consider, to get get through all the potential neighboors of the current point considered, in the wendland radius.
@@ -410,38 +410,38 @@ Note an approximation : if we use the data structure with a too large wendland r
 ###### Result
 <div style="text-align:center">
 <p align="center">
-  <img style="height : 300px;" src="/media/compressed/bunny1000Grid.gif">
-  <img style="height : 300px;" src="/media/compressed/bunny_grid_R40_W0.5_P2.png">
+  <img style="height : 300px;" src="/results/bunny1000Grid.gif">
+  <img style="height : 300px;" src="/results/bunny_grid_R40_W0.5_P2.png">
   <br/>Left : Mesh = bunny-1000 / Resolution = 40 / WendlandR = 0.5 / PolyDegree = 2 
   <br/>Right : Mesh = bunny-1000 / idem <br/>  
    
-  <img style="height : 300px;" src="/media/compressed/bunny500Grid.gif">
-    <img style="height : 300px;" src="/media/compressed/bunny_grid_R60_W0.05_P2.png">
+  <img style="height : 300px;" src="/results/bunny500Grid.gif">
+    <img style="height : 300px;" src="/results/bunny_grid_R60_W0.05_P2.png">
       <br/>Left : Mesh = bunny-500 / Resolution = 30 / WendlandR = 100 / PolyDegree = 1 
   <br/>Right : Mesh = bunny-500 / Resolution = 60 / WendlandR = 0.05 / PolyDegree = 2 / Sampling time : 36.8013 sec<br/>  
   
-  <img style="height : 300px;" src="/media/compressed/catGrid.gif">
-  <img style="height : 300px;" src="/media/compressed/cat_grid_R100_W80_P2.png">
+  <img style="height : 300px;" src="/results/catGrid.gif">
+  <img style="height : 300px;" src="/results/cat_grid_R100_W80_P2.png">
   <br/>Left : Mesh = cat / Resolution = 30 / WendlandR = 100 / PolyDegree = 1 
   <br/>Right : Mesh = cat / Resolution = 100 / WendlandR = 80 / PolyDegree = 2 <br/>  
 
-  <img style="height : 300px;" src="/media/compressed/houndGrid.gif">
-    <img style="height : 300px;" src="/media/compressed/hound_R100_W0.01_P2.png">
+  <img style="height : 300px;" src="/results/houndGrid.gif">
+    <img style="height : 300px;" src="/results/hound_R100_W0.01_P2.png">
     <br/>Left : Mesh = hound / Resolution = 25 / WendlandR = 0.05 / PolyDegree = 0 / Sampling time : 730.426 sec
     <br/>Right : Mesh = hound / Resolution = 100 / secWendlandR = 0.01 / PolyDegree = 2 <br/>  
     
-  <img style="height : 300px;" src="/media/compressed/horseGrid.gif">
-    <img style="height : 300px;" src="/media/compressed/horse_grid_R50_W0.03_P0.png">
+  <img style="height : 300px;" src="/results/horseGrid.gif">
+    <img style="height : 300px;" src="/results/horse_grid_R50_W0.03_P0.png">
       <br/>Left : Mesh = horse / Resolution = 40 / WendlandR = 0.01 / PolyDegree = 0 / Sampling time : 61.0157 sec
             <br/>Right : Mesh = horse / Resolution = 50 / WendlandR = 0.03 / PolyDegree = 0 / Sampling time : 134.786 sec<br/>  
 
-  <img style="height : 300px;" src="/media/compressed/luigiGrid.gif">
-      <img style="height : 300px;" src="/media/compressed/luigi_grid_R40_W10_P1.png">
+  <img style="height : 300px;" src="/results/luigiGrid.gif">
+      <img style="height : 300px;" src="/results/luigi_grid_R40_W10_P1.png">
       <br/>Left : Mesh = luigi / Resolution = 25 / WendlandR = 5 / PolyDegree = 0 
       <br/>Right : Mesh = luigi / Resolution = 40 / WendlandR = 10 / PolyDegree = 1 / Sampling time : 2.38913 sec<br/>  
   
-  <img style="height : 300px;" src="/media/compressed/sphereGrid.gif">
-      <img style="height : 300px;" src="/media/compressed/sphere_R20_W1_P2.png">
+  <img style="height : 300px;" src="/results/sphereGrid.gif">
+      <img style="height : 300px;" src="/results/sphere_R20_W1_P2.png">
         <br/>Left : Mesh = sphere / Resolution = 10 / WendlandR = 5 / PolyDegree = 1
             <br/>Right : Mesh = sphere / Resolution = 20 / WendlandR = 1 / PolyDegree = 2 <br/>  
   </p>
@@ -576,12 +576,12 @@ void createGrid()
 ###### Result
 <div style="text-align:center">
 <p align="center">
-    <img style="height : 300px;" src="/media/compressed/luigiBeforePCAR40W10P1.gif">
-    <img style="height : 300px;" src="/media/compressed/luigiBeforePCA_R40_W10_P1.png">
+    <img style="height : 300px;" src="/results/luigiBeforePCAR40W10P1.gif">
+    <img style="height : 300px;" src="/results/luigiBeforePCA_R40_W10_P1.png">
     <br/>Left : Mesh = luigi without PCA / Resolution = 40 / WendlandR = 10 / PolyDegree = 1 
     <br/>Right : Mesh = luigi without PCA / Resolution = 40 / WendlandR = 10 / polyDegree = 1 / Sampling time : 1.94553 sec <br/>
-    <img style="height : 300px;" src="/media/compressed/luigiAfterPCAR40W10P1.gif">
-    <img style="height : 300px;" src="/media/compressed/luigiAfterPCA_R40_W10_P1.png">
+    <img style="height : 300px;" src="/results/luigiAfterPCAR40W10P1.gif">
+    <img style="height : 300px;" src="/results/luigiAfterPCA_R40_W10_P1.png">
     <br/>Left : Mesh = luigi without PCA / Resolution = 40 / WendlandR = 10 / PolyDegree = 1 
     <br/>Right : Mesh = luigi without PCA / Resolution = 40 / WendlandR = 10 / PolyDegree = 1 / Sampling time : 2.4162 sec<br/>  
 </p>
@@ -618,13 +618,13 @@ As a first approximation, we could consider a **subdivision process** in order t
 ###### Result
 <div style="text-align:center">
 <p align="center">
-  <img style="height : 300px;" src="/media/compressed/bunny1000Surface.gif">
-  <img style="height : 300px;" src="/media/compressed/bunny500Surface.gif">
-  <img style="height : 300px;" src="/media/compressed/catSurface.gif">
-  <img style="height : 300px;" src="/media/compressed/houndGood.gif">
-  <img style="height : 300px;" src="/media/compressed/horseGood.gif">
-  <img style="height : 300px;" src="/media/compressed/luigiSurface.gif">
-  <img style="height : 300px;" src="/media/compressed/sphereSurface.gif"></p>
+  <img style="height : 300px;" src="/results/bunny1000Surface.gif">
+  <img style="height : 300px;" src="/results/bunny500Surface.gif">
+  <img style="height : 300px;" src="/results/catSurface.gif">
+  <img style="height : 300px;" src="/results/houndGood.gif">
+  <img style="height : 300px;" src="/results/horseGood.gif">
+  <img style="height : 300px;" src="/results/luigiSurface.gif">
+  <img style="height : 300px;" src="/results/sphereSurface.gif"></p>
 </div>
 
 Note that the code is not optimized by thoughtful laziness: this code is not made to be reused as is in other applications, and if this is the case, the code will be reviewed and optimized. Thanks for your understanding.
